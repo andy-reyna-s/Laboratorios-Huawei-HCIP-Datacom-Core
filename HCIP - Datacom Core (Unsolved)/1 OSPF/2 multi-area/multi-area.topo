@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UNICODE" ?>
 <topo version="1.3.00.100">
     <devices>
+        <dev id="77265AE0-DB5F-4001-8C37-47C31633634E" name="LSW1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-EA-30-62" com_port="2003" bootmode="0" cx="388.000000" cy="363.000000" edit_left="415" edit_top="417">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
         <dev id="BD6D70B0-8220-4a6d-9356-0DCC71CA511A" name="AR1" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-14-2A-8F" com_port="2000" bootmode="0" cx="212.000000" cy="360.000000" edit_left="242" edit_top="410">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="1" />
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
-            </slot>
-        </dev>
-        <dev id="77265AE0-DB5F-4001-8C37-47C31633634E" name="LSW1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-EA-30-62" com_port="2003" bootmode="0" cx="388.000000" cy="363.000000" edit_left="415" edit_top="417">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
         </dev>
         <dev id="7E83CAD0-7548-4fd8-A214-6D026D980985" name="AR3" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-14-33-F0" com_port="2002" bootmode="0" cx="578.000000" cy="366.000000" edit_left="605" edit_top="420">
@@ -70,16 +70,20 @@
         <txttip left="539" top="188" right="611" bottom="205" content="10.0.24.4" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="671" top="190" right="743" bottom="207" content="10.0.45.4" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="761" top="190" right="833" bottom="207" content="10.0.45.5" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="900" top="178" right="987" bottom="195" content="10.0.5.5/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="901" top="197" right="988" bottom="214" content="10.5.0.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="900" top="219" right="987" bottom="236" content="10.5.1.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="644" top="402" right="731" bottom="419" content="10.3.1.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="645" top="382" right="732" bottom="399" content="10.3.0.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="644" top="363" right="731" bottom="380" content="10.0.3.3/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="286" top="201" right="373" bottom="218" content="10.2.1.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
-        <txttip left="287" top="179" right="374" bottom="196" content="10.2.0.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="900" top="178" right="1017" bottom="195" content="L0: 10.0.5.5/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="901" top="197" right="1018" bottom="214" content="L1: 10.5.0.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="900" top="219" right="1017" bottom="236" content="L2: 10.5.1.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="644" top="402" right="761" bottom="419" content="L2: 10.3.1.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="644" top="382" right="761" bottom="399" content="L1: 10.3.0.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="644" top="363" right="761" bottom="380" content="L0: 10.0.3.3/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="261" top="198" right="378" bottom="215" content="L2: 10.2.1.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="258" top="176" right="375" bottom="193" content="L1: 10.2.0.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="314" top="309" right="363" bottom="326" content="area 2" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="498" top="162" right="547" bottom="179" content="area 0" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="726" top="165" right="775" bottom="182" content="area 1" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="61" top="64" right="292" bottom="112" content="IP addresses configured&#x0D;&#x0A;&#x0D;&#x0A;L0 address format: 10.0.x.x/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="424" top="163" right="443" bottom="180" content="L0" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="600" top="164" right="619" bottom="181" content="L0" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="183" top="390" right="202" bottom="407" content="L0" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
     </txttips>
 </topo>

@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="UNICODE" ?>
 <topo version="1.3.00.100">
     <devices>
-        <dev id="4C500BEC-67D4-4127-9F7E-B7CA525F1740" name="LSW1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-0F-16-D0" com_port="2000" bootmode="0" cx="534.735535" cy="150.347107" edit_left="551" edit_top="132">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
-            </slot>
-        </dev>
         <dev id="8AF4B68B-0151-489b-8906-2B18B41AD6A7" name="LSW2" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-31-19-B1" com_port="2001" bootmode="0" cx="1258.305664" cy="146.611572" edit_left="1282" edit_top="131">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
@@ -17,6 +12,11 @@
             </slot>
         </dev>
         <dev id="57F21FC4-DC17-4eb0-B8FA-394090F84EE2" name="LSW4" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-38-61-22" com_port="2003" bootmode="0" cx="1137.561890" cy="485.685944" edit_left="1164" edit_top="539">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
+        <dev id="4C500BEC-67D4-4127-9F7E-B7CA525F1740" name="LSW1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-0F-16-D0" com_port="2000" bootmode="0" cx="534.735535" cy="150.347107" edit_left="551" edit_top="132">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>

@@ -19,7 +19,7 @@
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
             </slot>
         </dev>
-        <dev id="EACD08CC-BD49-461c-BB9C-1AFFC44828EC" name="AR4" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-09-11-AA" com_port="2003" bootmode="0" cx="973.388611" cy="369.608337" edit_left="1044" edit_top="395">
+        <dev id="EACD08CC-BD49-461c-BB9C-1AFFC44828EC" name="AR4" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-09-11-AA" com_port="2003" bootmode="0" cx="975.388611" cy="368.608337" edit_left="1046" edit_top="394">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="1" />
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
@@ -40,10 +40,10 @@
             <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="635.369080" srcBoundRect_Y="416.776306" srcOffset_X="12.000000" srcOffset_Y="-3.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="761.630920" tarBoundRect_Y="505.223694" tarOffset_X="-5.000000" tarOffset_Y="-18.000000" />
         </line>
         <line srcDeviceID="3DD57493-721B-4634-8967-736E01F2429A" destDeviceID="EACD08CC-BD49-461c-BB9C-1AFFC44828EC">
-            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="833.039917" srcBoundRect_Y="506.210083" srcOffset_X="-3.000000" srcOffset_Y="5.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="963.960083" tarBoundRect_Y="419.789917" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="833.065796" srcBoundRect_Y="506.249329" srcOffset_X="-3.000000" srcOffset_Y="5.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="965.934204" tarBoundRect_Y="418.750671" tarOffset_X="0.000000" tarOffset_Y="0.000000" />
         </line>
         <line srcDeviceID="EACD08CC-BD49-461c-BB9C-1AFFC44828EC" destDeviceID="57587321-1346-41b0-BB86-C6D21E3BF8D7">
-            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="1000.220337" srcBoundRect_Y="352.816803" srcOffset_X="4.000000" srcOffset_Y="1.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="1000.779663" tarBoundRect_Y="243.183197" tarOffset_X="3.000000" tarOffset_Y="0.000000" />
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="1001.778564" srcBoundRect_Y="351.816803" srcOffset_X="4.000000" srcOffset_Y="1.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="1001.221436" tarBoundRect_Y="243.183197" tarOffset_X="3.000000" tarOffset_Y="0.000000" />
         </line>
     </lines>
     <shapes>
@@ -71,5 +71,6 @@
         <txttip left="953" top="435" right="1025" bottom="452" content="10.0.34.4" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="1008" top="335" right="1080" bottom="352" content="10.0.45.4" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="1009" top="225" right="1081" bottom="242" content="10.0.45.5" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="405" top="71" right="636" bottom="88" content="L0 on each device: 10.0.x.x/32" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
     </txttips>
 </topo>

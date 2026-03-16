@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UNICODE" ?>
 <topo version="1.3.00.100">
     <devices>
+        <dev id="E482DBFF-6F09-4251-A6C2-6E53BEB8E670" name="LSW1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-C7-64-F8" com_port="2005" bootmode="0" cx="495.000000" cy="345.000000" edit_left="521" edit_top="394">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="24" />
+            </slot>
+        </dev>
         <dev id="FBF10FCA-85DC-4ce0-BE92-5E09612D1F7F" name="AR2" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-BA-5F-5C" com_port="2001" bootmode="0" cx="757.000000" cy="587.000000" edit_left="784" edit_top="641">
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="1" />
@@ -11,11 +16,6 @@
             <slot number="slot17" isMainBoard="1">
                 <interface sztype="Ethernet" interfacename="GE" count="1" />
                 <interface sztype="Ethernet" interfacename="GE" count="2" />
-            </slot>
-        </dev>
-        <dev id="E482DBFF-6F09-4251-A6C2-6E53BEB8E670" name="LSW1" poe="0" model="S5700" settings="" system_mac="4C-1F-CC-C7-64-F8" com_port="2005" bootmode="0" cx="495.000000" cy="345.000000" edit_left="521" edit_top="394">
-            <slot number="slot17" isMainBoard="1">
-                <interface sztype="Ethernet" interfacename="GE" count="24" />
             </slot>
         </dev>
         <dev id="12F84E60-273D-4701-8C26-79460C496254" name="AR3" poe="0" model="AR2220" settings="" system_mac="00-E0-FC-79-77-42" com_port="2002" bootmode="0" cx="754.000000" cy="343.000000" edit_left="779" edit_top="326">
@@ -74,5 +74,11 @@
         <txttip left="270" top="300" right="319" bottom="317" content="Area 2" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="1295" top="283" right="1344" bottom="300" content="Area 1" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="838" top="688" right="887" bottom="705" content="Area 3" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="292" top="322" right="402" bottom="339" content="L0:10.0.1.1/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="700" top="721" right="810" bottom="738" content="L0:10.0.2.2/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="811" top="307" right="921" bottom="324" content="L0:10.0.3.3/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="914" top="414" right="1024" bottom="431" content="L0:10.0.4.4/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="1303" top="434" right="1413" bottom="451" content="L0:10.0.5.5/24" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="248" top="165" right="426" bottom="182" content="IP addresses configured" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
     </txttips>
 </topo>
