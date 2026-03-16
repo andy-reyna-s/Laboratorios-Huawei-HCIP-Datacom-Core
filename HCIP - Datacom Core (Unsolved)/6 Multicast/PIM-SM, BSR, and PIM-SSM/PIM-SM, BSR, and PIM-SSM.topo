@@ -37,13 +37,23 @@
             <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="0" srcBoundRect_X="827.229736" srcBoundRect_Y="615.420654" srcOffset_X="0.000000" srcOffset_Y="0.000000" tarIndex="1" tarBoundRectIsMoved="1" tarBoundRect_X="1007.770264" tarBoundRect_Y="465.579346" tarOffset_X="-7.000000" tarOffset_Y="9.000000" />
         </line>
         <line srcDeviceID="368C2A34-D5CF-43f1-A82E-5612E09FFBFC" destDeviceID="2D99BAA8-9803-4c8e-BFA7-EA46166AB0CD">
-            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="761.339233" srcBoundRect_Y="614.749146" srcOffset_X="-55.000000" srcOffset_Y="7.000000" tarIndex="2" tarBoundRectIsMoved="1" tarBoundRect_X="589.660767" tarBoundRect_Y="466.250885" tarOffset_X="15.000000" tarOffset_Y="-5.000000" />
+            <interfacePair lineName="Copper" srcIndex="1" srcBoundRectIsMoved="1" srcBoundRect_X="761.339233" srcBoundRect_Y="614.749146" srcOffset_X="-43.000000" srcOffset_Y="16.000000" tarIndex="2" tarBoundRectIsMoved="1" tarBoundRect_X="589.660767" tarBoundRect_Y="466.250885" tarOffset_X="15.000000" tarOffset_Y="-5.000000" />
         </line>
     </lines>
     <shapes />
     <txttips>
-        <txttip left="1001" top="396" right="1020" bottom="413" content="RP" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="1071" top="424" right="1090" bottom="441" content="RP" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="542" top="139" right="569" bottom="156" content="FHR" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
         <txttip left="808" top="669" right="835" bottom="686" content="LHR" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="532" top="74" right="763" bottom="91" content="L0 on each device: 10.0.x.x/32" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="562" top="270" right="634" bottom="287" content="10.0.12.1" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="572" top="367" right="644" bottom="384" content="10.0.12.2" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="653" top="412" right="725" bottom="429" content="10.0.23.2" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="882" top="412" right="954" bottom="429" content="10.0.23.3" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="525" top="488" right="597" bottom="505" content="10.0.24.2" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="676" top="612" right="748" bottom="629" content="10.0.24.4" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="865" top="593" right="937" bottom="610" content="10.0.34.4" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="990" top="493" right="1062" bottom="510" content="10.0.34.3" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
+        <txttip left="532" top="100" right="710" bottom="117" content="IP addresses configured" fontname="Consolas" fontstyle="0" editsize="100" txtcolor="-16777216" txtbkcolor="-7278960" charset="1" />
     </txttips>
 </topo>
